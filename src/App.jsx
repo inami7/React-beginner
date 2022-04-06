@@ -5,7 +5,7 @@
 //キャメルケースで書く
 //useState　　コンポーネント内で動的に変わるものに使う
 //useEffect　第2引数(配列[]の中)が変化した時だけ実行することができる
-//           第２引数を設定しない場合、最初の一回だけ実行される処理になる
+//           第２引数を設定しない場合、最初の一回だけ実行される処理になる。
 
 /* eslint react-hooks/exhaustive-deps:off */
 import React, { useEffect, useState } from "react";
